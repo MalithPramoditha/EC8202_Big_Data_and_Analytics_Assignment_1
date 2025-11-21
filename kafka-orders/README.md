@@ -3,12 +3,12 @@
 This project implements a Kafka-based order processing pipeline using **Python**, **Kafka**, and **Avro serialization**.  
 It includes:
 
-- 🔹 **Producer** – generates random order messages (orderId, product, price)
-- 🔹 **Consumer** – processes messages, calculates running average of prices
-- 🔹 **Retry Logic** – automatic retry for temporary failures
-- 🔹 **Dead Letter Queue (DLQ)** – permanently failed messages are redirected
-- 🔹 **Avro Serialization** – using fastavro
-- 🔹 **Topics**: `orders` and `orders-dlq`
+- **Producer** – generates random order messages (orderId, product, price)
+- **Consumer** – processes messages, calculates running average of prices
+- **Retry Logic** – automatic retry for temporary failures
+- **Dead Letter Queue (DLQ)** – permanently failed messages are redirected
+- **Avro Serialization** – using fastavro
+- **Topics**: `orders` and `orders-dlq`
 
 ## 📌 1. Project Structure
 
